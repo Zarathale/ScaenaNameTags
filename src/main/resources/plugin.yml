@@ -1,0 +1,18 @@
+name: ScaenaNameTags
+main: cc.scaenacraft.nametags.ScaenaNameTagsPlugin
+version: 1.0.0
+api-version: "1.21"
+
+commands:
+  nametags:
+    description: Unlock the ScaenaCraft preview name tag recipe.
+    usage: /nametags [unlock|give <player>]
+    aliases: [nametag, nt]
+
+permissions:
+  scaena.nametags.unlock:
+    description: Allows players to unlock the name tag recipe.
+    default: true
+  scaena.nametags.give:
+    description: Allows admins to issue the recipe unlock to others.
+    default: op

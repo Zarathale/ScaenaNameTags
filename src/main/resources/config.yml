@@ -1,0 +1,3 @@
+recipe-id: "scaenacraft_preview:name_tag_preview"
+require-permission: true
+default-allow: true
